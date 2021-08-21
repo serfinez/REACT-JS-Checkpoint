@@ -1,18 +1,38 @@
+import react from"./reactSrc.png"
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <div className="mb-3">
-  <label for="exampleFormControlInput1" className="form-label">Email address</label>
-  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-</div>
-<div className="mb-3">
-  <label for="exampleFormControlTextarea1" className="form-label">Example textarea</label>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-    </div>
-  );
-}
 
-export default App;
+    <div className="App">
+      
+      <div style={{border:"solid 1px black",maxWidth:"100vw"}}>
+
+    <h1 class="title red">Your name here</h1>
+   
+    <br />
+   
+    <img src={react} />
+   
+    <br/>
+   
+    <img src="/logo512.png" />
+   
+   </div>
+   
+   <video width="320" height="240" controls>
+   
+    <source src="myVideo.mp4" type="video/mp4" />
+   
+   </video>
+     
+     
+    </div>
+  )
+
+
+    }
+
+
+
+    export default App;
